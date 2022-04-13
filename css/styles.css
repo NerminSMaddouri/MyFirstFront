@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+body{background-color: rgb(185, 0, 33);}
+
+header{background-color: rgba(287, 0, 68, 0.94)}
+
+header img{height: 100px;}
+ul {list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(8, 0, 0, 0.59);
+}
+
+header img:hover{
+    cursor: cell;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+
+    padding: 44px 16px;
+    transition: .45s;
+}
+
+li a:hover{
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: orange;
+
+    color: #330093;
+    padding: 50px 19px;
+    padding-right: 120px;
+    box-shadow: 0px 10px 20px black;
+
+}
+li {
+    float: left;}
+
+
+#imin {
+    float: right;
+    transition: .8s;
+}
+#imin:active {
+    padding: 10px;
+    margin-right: 660px;
+}
+
+div Section{
+        opacity: .38;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../img/freedom.jpeg");
+        background-size: cover;
+}
+span{
+    color: white;
+    text-shadow: 2px 2px 13px white;
+    font-family: cursive;
+    font-size: 32px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(134, 0, 24, 0.9);
+
+}
+footer p{
+
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.form {
+   margin-left: 50px;
+   font-size: 24px;
+   font-weight: lighter;
+}
+input {
+   width: 230px;
+   height: 50px;
+   border: 2px solid black;
+   padding: 8px;
+   font-size: 30px;
+   color: purple;
+   margin-left: 15px;
+}
+
+table {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 50px;
+    margin-left: 250px;
+}
+
+#free{
+    height: 300px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 75px;
+    padding: 30px;
+    background-color: rgba(#cb0031, 0.94);
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: .47s;
+}
+
+button:hover{
+    cursor: grabbing;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+td img{
+}
